@@ -26,7 +26,7 @@ Install the required Python packages by running:
 # Create a virtual environment
 python -m venv env
 source env/bin/activate   # For Linux/Mac
-env\\Scripts\\activate      # For Windows
+.\env\Scripts\activate      # For Windows
 
 # Install dependencies
 pip install -r requirements.txt
