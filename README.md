@@ -36,7 +36,7 @@ python src/feature_engineering.py
 ```
 
 ## 5. Download Pretrained Weights:
-Download the pretrained and trained model weights by following the instructions given in the <mark>weights/ directory to organise the data
+Download the pretrained and trained model weights by following the instructions given in the <mark>weights/</mark> directory to organise the data
 
 ## 6. Train the Model:
 Start training the model using the preprocessed dataset:
@@ -55,3 +55,9 @@ You can infer the model using the pretrained weights provided in the weights/ di
 python src/ensemble_inference.py
 ```
 
+## Recap of Directory Purpose
+1. **`data/`:** Placeholder for datasets (link to download instead of uploading).
+2. **`src/`:** Contains scripts for preprocessing, training, inference, and utilities.
+3. **`weights/`:** Stores pretrained and trained model weights (upload links for large files).
+4. **`submission/`:** Stores `submission.csv` created during inference.
+5. **`notebooks/`:** (Optional) For exploratory analysis or visualization.
