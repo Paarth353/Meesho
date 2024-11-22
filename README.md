@@ -1,3 +1,26 @@
+# **Project Summary**
+
+This project focuses on **multi-label classification** for a dataset containing products across **five categories**: *Men T-shirts, Sarees, Kurtis, Women T-shirts, and Women Tops & Tunics.* Each category has multiple attributes like **color, neck type, pattern, occasion**, etc., extracted from the accompanying parquet file.
+
+Using an **ensemble learning approach** with **transfer learning**, the project leverages two pre-trained models:
+- **VGG19**: Fine-tuned for feature extraction.
+- **Swin Transformer**: A cutting-edge vision transformer model.
+
+### **Core Innovations**
+1. **Custom Soft F1 Loss Function**: Specifically tailored for imbalanced multi-attribute classification, ensuring robust performance across all attributes.
+2. **Dynamic Preprocessing**: NaN values are strategically handled to optimize model learning and predictions.
+
+### **Steps Involved**
+1. **Preprocessing**: Cleaning and structuring data, managing missing values, and applying feature-specific transformations.
+2. **Model Training**: Separate fine-tuning for VGG and Swin models, followed by **ensemble-based inference**.
+3. **Ensemble Learning**: Weighted averaging of predictions from both models to boost accuracy and robustness.
+4. **Evaluation**: Metrics include precision, recall, and F1-score for each category and attribute.
+
+### **Real-World Applicability**
+This solution is tailored for applications requiring **fine-grained categorization**, such as e-commerce product taxonomy, inventory tagging, and recommendation systems. It optimizes accuracy for multiple labels simultaneously across diverse product types.
+
+This summary provides a concise yet comprehensive overview of your project. Let me know if you'd like further refinements!
+
 # Setup Instructions for Meesho Multi-Attribute Classification Project
 
 This document provides step-by-step instructions to set up and run the Meesho project.
